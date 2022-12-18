@@ -31,7 +31,7 @@ public class Day1
     [Fact]
     public void Part1()
     {
-        var input = File.ReadLines("Day1/part1.txt");
+        var input = File.ReadLines("Day1/input.txt");
         var max = Top(input);
         Assert.Equal(71471, max);
         _testOutputHelper.WriteLine($"Part 1: {max}");
@@ -40,7 +40,7 @@ public class Day1
     [Fact]
     public void Part2()
     {
-        var input = File.ReadLines("Day1/part1.txt");
+        var input = File.ReadLines("Day1/input.txt");
 
         var sumTop3 = SumTop3(input);
         Assert.Equal(211189, sumTop3);
